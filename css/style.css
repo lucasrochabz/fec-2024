@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu {
+    background-color: green;
+    
+}
+
+.menu ul {
+    
+    display: flex;
+    gap: 20px;
+}
+
+.content {
+    background-color: blue;
+}
+
+.copy {
+    background-color: teal;
+    text-align: center;
+}
