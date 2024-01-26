@@ -1,0 +1,25 @@
+.menu {
+  background-color: #030f22;
+  padding: 20px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  background-color: red;
+  display: block;
+  text-decoration: none;
+  color: #f7f7f7;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.menu a:hover {
+  background-color: #8a0000;
+  transition: 0.3s;
+}
