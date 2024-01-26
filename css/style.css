@@ -16,7 +16,7 @@ img {
 }
 
 .menu {
-    background-color: green;
+    background-color: #030f22;
     padding: 20px;
 }
 
@@ -30,13 +30,19 @@ img {
     background-color: red;
     display: block;
     text-decoration: none;
-    color: white;
+    color: #f7f7f7;
     text-transform: uppercase;
     padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.menu a:hover {
+    background-color: #8a0000;
+    transition: 0.3s;
 }
 
 .content {
-    background-color: blue;
+    background-color: green;
     padding: 20px;
 }
 
