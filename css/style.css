@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
@@ -25,6 +26,25 @@ body {
 
 .content {
     background-color: blue;
+}
+
+img {
+    display: block;
+    max-width: 100px;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    margin: auto;
+}
+
+.button {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 .copy {
