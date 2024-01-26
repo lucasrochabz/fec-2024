@@ -6,9 +6,11 @@ export const HomePage = () => {
   return(
     <>
       <Header />
-      <div>
-        <h1>HomePage</h1>
-      </div>
+        <section class="content">
+          <h1>HomePage</h1>
+          <h1>Jogadores</h1>
+          <h1>Sobre</h1>
+        </section>
       <Footer />
     </>
   )

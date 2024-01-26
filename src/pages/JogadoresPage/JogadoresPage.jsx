@@ -8,6 +8,16 @@ export const JogadoresPage = () => {
       <Header />
       <div>
         <h1>JogadoresPage</h1>
+        <section class="info">
+            <div class="img">
+                {/* <img src="/imagens/jogador1.png" alt="jogador"> */}
+            </div>
+            <div class="navigation">
+                <button>Jogador Anterior</button>
+                <h2>Tinga</h2>
+                <button class="next">Próximo jogador</button>
+            </div>
+        </section>
       </div>
       <Footer />
     </>
