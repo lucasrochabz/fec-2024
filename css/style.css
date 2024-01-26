@@ -2,10 +2,17 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     background-color: #f7f7f7;
+}
+
+img {
+    display: block;
+    max-height: 100%;
+    margin: auto;
 }
 
 .menu {
@@ -20,34 +27,52 @@ body {
 }
 
 .menu a {
+    background-color: red;
+    display: block;
     text-decoration: none;
     color: white;
+    text-transform: uppercase;
+    padding: 10px 20px;
 }
 
 .content {
     background-color: blue;
-}
-
-img {
-    display: block;
-    max-width: 100px;
+    padding: 20px;
 }
 
 .img {
-    width: 300px;
-    height: 300px;
     background-color: yellow;
+    width: 300px;
+    height: 400px;
     margin: auto;
+    max-height: 100%;
 }
 
-.button {
-    padding: 10px;
+.info {
+    /* background-color: #a45; */
+    padding: 20px;
+}
+
+.navigation {
+    background-color: pink;
     display: flex;
-    justify-content: center;
-    gap: 10px;
+    padding: 20px;
+}
+.navigation h2 {
+    padding: 10px;
+}
+
+button {
+    display: block;
+    padding: 20px 20px;
+    border: none;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 10px;
 }
 
 .copy {
     background-color: teal;
     text-align: center;
+    padding: 20px;
 }
