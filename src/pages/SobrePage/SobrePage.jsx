@@ -6,9 +6,9 @@ export const SobrePage = () => {
   return(
     <>
       <Header />
-      <div>
+      <section className="sobre-content">
         <h1>SobrePage</h1>
-      </div>
+      </section>
       <Footer />
     </>
   )

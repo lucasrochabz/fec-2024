@@ -1,5 +1,14 @@
-.copy {
-  background-color: teal;
+.footer-content {
   text-align: center;
+}
+
+.copy {
+  background-color: #030f22;
+  color: #f7f7f7;
+  
   padding: 20px;
+}
+
+.copy p {
+  padding: 10px;
 }

@@ -6,9 +6,9 @@ export const JogadoresPage = () => {
   return(
     <>
       <Header />
-      <div>
+      <section className="jogadores-content">
         <h1>JogadoresPage</h1>
-        <section class="info">
+        <div class="info">
             <div class="img">
                 {/* <img src="/imagens/jogador1.png" alt="jogador"> */}
             </div>
@@ -17,8 +17,8 @@ export const JogadoresPage = () => {
                 <h2>Tinga</h2>
                 <button class="next">Próximo jogador</button>
             </div>
-        </section>
-      </div>
+        </div>
+      </section>
       <Footer />
     </>
   )

@@ -1,7 +1,8 @@
-body {
+.home-content {
+  background-color: teal;
   text-align: center;
 }
 
-h1 {
+.home-content h1 {
   padding: 20px;
 }

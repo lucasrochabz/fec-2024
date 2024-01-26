@@ -4,8 +4,9 @@ import "./Header.css"
 export const Header = () => {
   return(
     <>
-      <header>
-        <nav class="menu">
+      <header className="header-content">
+        <p>Logo</p>
+        <nav className="menu">
           <ul>
             <Link to='/'>Home</Link>
             <Link to='/jogadores'>Jogadores</Link>

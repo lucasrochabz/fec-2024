@@ -6,7 +6,7 @@ export const HomePage = () => {
   return(
     <>
       <Header />
-        <section class="content">
+        <section class="home-content">
           <h1>HomePage</h1>
           <h1>Jogadores</h1>
           <h1>Sobre</h1>
