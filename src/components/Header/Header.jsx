@@ -5,7 +5,9 @@ export const Header = () => {
   return(
     <>
       <header className="header-content">
-        <p>Logo</p>
+        <figure>
+          <img src="src/assets/imagens/logo-fortaleza.png" alt="Escudo do Fortaleza" />
+        </figure>
         <nav className="menu">
           <ul>
             <Link to='/'>Home</Link>

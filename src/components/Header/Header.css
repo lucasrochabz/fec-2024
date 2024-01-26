@@ -1,10 +1,12 @@
 .header-content {
-  background-color: chocolate;
+  background-color: #030f22;
+  display: flex;
+  gap: 10px;
 }
 
 .menu {
-  background-color: #030f22;
-  padding: 20px;
+  background-color: chocolate;
+  align-self: center;
 }
 
 .menu ul {
