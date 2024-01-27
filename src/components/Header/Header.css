@@ -5,7 +5,7 @@
 }
 
 .menu {
-  background-color: chocolate;
+  /* background-color: chocolate; */
   align-self: center;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .menu a {
-  background-color: red;
+  background-color: #de2527;
   display: block;
   text-decoration: none;
   color: #f7f7f7;
