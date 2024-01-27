@@ -10,7 +10,7 @@ export const JogadoresPage = () => {
         <h1>JogadoresPage</h1>
         <div className="info">
             <div className="img">
-              <img src="src/assets/imagens/jogador1.png" alt="Foto do Jogador" />
+              <img src="src/assets/imagens/tinga.png" alt="Foto do Jogador" />
             </div>
             <div className="button">
                 <button>Jogador Anterior</button>
