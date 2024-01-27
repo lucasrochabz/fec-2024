@@ -39,3 +39,7 @@ button {
   border-radius: 10px;
   border: 1px solid black;
 }
+
+.jogadores-content button:hover {
+  background-color: #d7d7d7;
+}
