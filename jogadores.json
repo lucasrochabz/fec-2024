@@ -3,66 +3,91 @@
   {
     "id": 1,
     "nome": "JOÃO RICARDO",
+    "numero": 1,
+    "posicao": "Goleiro",
     "imgSrc": "src/assets/imagens/joao-ricardo.png"
   },
   {
     "id": 2,
     "nome": "MAURÍCIO KOZLINSKI",
+    "numero": 30,
+    "posicao": "Goleiro",
     "imgSrc": "src/assets/imagens/mauricio-kozlinski.png"
   },
   {
     "id": 3,
     "nome": "BRUNO GUIMARÃES",
+    "numero": null,
+    "posicao": "Goleiro",
     "imgSrc": "src/assets/imagens/bruno-guimaraes.png"
   },
   {
     "id": 4,
     "nome": "TINGA",
+    "numero": 2,
+    "posicao": "Lateral-direito",
     "imgSrc": "src/assets/imagens/tinga.png"
   },
   {
     "id": 5,
     "nome": "DUDU",
-    "imgSrc": "dudu.png"
+    "numero": 20,
+    "posicao": "Lateral-direito",
+    "imgSrc": "src/assets/imagens/dudu.png"
   },
   {
     "id": 6,
     "nome": "GONZALO ESCOBAR",
+    "numero": 33,
+    "posicao": "Lateral-esquerdo",
     "imgSrc": "src/assets/imagens/gonzalo-escobar.png"
   },
   {
     "id": 7,
     "nome": "BRUNO PACHECO",
+    "numero": 6,
+    "posicao": "Lateral-esquerdo",
     "imgSrc": "src/assets/imagens/bruno-pacheco.png"
   },
   {
     "id": 8,
     "nome": "MARCELO BENEVENUTO",
+    "numero": 5,
+    "posicao": "Zagueiro",
     "imgSrc": "src/assets/imagens/marcelo-benevenuto.png"
   },
   {
     "id": 9,
     "nome": "TOBIAS FIGUEIREDO",
+    "posicao": "Zagueiro",
     "imgSrc": "src/assets/imagens/tobias-figueiredo.png"
   },
   {
     "id": 10,
     "nome": "TITI",
+    "numero": 4,
+    "posicao": "Zagueiro",
     "imgSrc": "src/assets/imagens/titi.png"
   },
   {
     "id": 11,
     "nome": "EMANUEL BRÍTEZ",
+    "numero": 19,
+    "posicao": "Zagueiro",
     "imgSrc": "src/assets/imagens/emanuel-britez.png"
   },
   {
     "id": 12,
     "nome": "TOMÁS POCHETTINO",
+    "numero": 7,
+    "posicao": "Meio-campista",
     "imgSrc": "src/assets/imagens/tomas-pochettino.png"
   },
   {
     "id": 13,
     "nome": "PEDRO AUGUSTO",
+    "numero": 28,
+    "posicao": "Volante", 
     "imgSrc": "src/assets/imagens/pedro-augusto.png"
   }
 ]

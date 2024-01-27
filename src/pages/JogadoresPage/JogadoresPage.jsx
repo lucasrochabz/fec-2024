@@ -16,14 +16,19 @@ export const JogadoresPage = () => {
     <>
       <Header />
       <section className="jogadores-content">
-        <h1>JogadoresPage</h1>
-        <div className="info">
 
-          <div className="img">
+          <div>
             {jogadores.map(jogador => (
-              <div className="img" key={jogador.id}>
-                <img src={jogador.imgSrc} alt="" />
-              </div>
+              <>
+                <div className='jogadores'>
+                  <h2>{jogador.nome}</h2>
+                  <p>{jogador.posicao}</p>
+                  <div className="img" key={jogador.id}>
+                    <img src={jogador.imgSrc} alt="" />
+                  </div>
+                  <hr />
+                </div>
+              </>
             ))}
           </div>
 
@@ -32,7 +37,6 @@ export const JogadoresPage = () => {
               <h2>Nome</h2>
               <button class="next">Próximo jogador</button>
           </div>
-        </div>
       </section>
       <Footer />
     </>
