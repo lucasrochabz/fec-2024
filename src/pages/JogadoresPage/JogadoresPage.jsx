@@ -15,14 +15,23 @@ export const JogadoresPage = () => {
   return(
     <>
       <Header />
+      <ul>
+        {jogadores.map(jogador => (
+          <li key={jogador.nome}>
+            <a href={`#jogador-${jogador.id}`}>{jogador.nome}</a>
+          </li>
+        ))}
+      </ul>
+
       <section className="jogadores-content">
 
           <div>
             {jogadores.map(jogador => (
               <>
                 <div className='jogadores'>
-                  <h2>{jogador.nome}</h2>
+                  <h2 id={`jogador-${jogador.id}`}>{jogador.nome}</h2>
                   <p>{jogador.posicao}</p>
+                  <p>{jogador.numero}</p>
                   <div className="img" key={jogador.id}>
                     <img src={jogador.imgSrc} alt="" />
                   </div>

@@ -16,14 +16,7 @@ export const SobrePage = () => {
     <>
       <Header />
       <section className="sobre-content">
-        <h1>SobrePage</h1>
-        <ul>
-          {jogadores.map(jogador => (
-            <li key={jogador.id}>
-              {jogador.nome} - <img src={jogador.imgSrc} alt="" />
-            </li>
-          ))}
-        </ul>
+        <h2>Sobre o clube</h2>
       </section>
       <Footer />
     </>

@@ -7,9 +7,8 @@ export const HomePage = () => {
     <>
       <Header />
         <section class="home-content">
-          <h1>HomePage</h1>
-          <h1>Jogadores</h1>
-          <h1>Sobre</h1>
+          <h1>Patrocinadores 1</h1>
+          <h1>Patrocinadores 2</h1>
         </section>
       <Footer />
     </>
