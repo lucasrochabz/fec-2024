@@ -3,6 +3,28 @@
   text-align: center;
 }
 
+.jogadores-content nav {
+  background-color: chocolate;
+}
+
+.jogadores-content ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.jogadores-content li {
+  list-style: none;
+}
+
+.jogadores-content a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: blue;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
 .jogadores-content h1 {
   padding: 10px;
 }
@@ -14,7 +36,7 @@ img {
 }
 
 .img {
-  background-color: yellow;
+  background-color: #979797;
   width: 300px;
   height: 400px;
   margin: auto;

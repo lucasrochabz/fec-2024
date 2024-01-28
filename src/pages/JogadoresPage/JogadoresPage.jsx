@@ -15,37 +15,40 @@ export const JogadoresPage = () => {
   return(
     <>
       <Header />
-      <ul>
-        {jogadores.map(jogador => (
-          <li key={jogador.nome}>
-            <a href={`#jogador-${jogador.id}`}>{jogador.nome}</a>
-          </li>
-        ))}
-      </ul>
+      
 
       <section className="jogadores-content">
-
-          <div>
+        <nav>
+          <ul>
             {jogadores.map(jogador => (
-              <>
-                <div className='jogadores'>
-                  <h2 id={`jogador-${jogador.id}`}>{jogador.nome}</h2>
-                  <p>{jogador.posicao}</p>
-                  <p>{jogador.numero}</p>
-                  <div className="img" key={jogador.id}>
-                    <img src={jogador.imgSrc} alt="" />
-                  </div>
-                  <hr />
-                </div>
-              </>
+              <li key={jogador.nome}>
+                <a href={`#jogador-${jogador.id}`}>{jogador.nome}</a>
+              </li>
             ))}
-          </div>
+          </ul>
+        </nav>
 
-          <div className="button">
-              <button>Jogador Anterior</button>
-              <h2>Nome</h2>
-              <button class="next">Próximo jogador</button>
-          </div>
+        <div>
+          {jogadores.map(jogador => (
+            <>
+              <div className='jogadores'>
+                <h2 id={`jogador-${jogador.id}`}>{jogador.nome}</h2>
+                <p>{jogador.posicao}</p>
+                <p>{jogador.numero}</p>
+                <div className="img" key={jogador.id}>
+                  <img src={jogador.imgSrc} alt="" />
+                </div>
+                <hr />
+              </div>
+            </>
+          ))}
+        </div>
+
+        <div className="button">
+          <button>Jogador Anterior</button>
+          <h2>Nome</h2>
+          <button class="next">Próximo jogador</button>
+        </div>
       </section>
       <Footer />
     </>
