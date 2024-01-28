@@ -6,7 +6,7 @@
 }
 
 .menu {
-  /* background-color: chocolate; */
+  background-color: chocolate;
   align-self: center;
 }
 
@@ -30,4 +30,8 @@
 .menu a:hover {
   background-color: #8a0000;
   transition: 0.3s;
+}
+
+.menu a.active {
+  background-color: #8a0000;
 }
