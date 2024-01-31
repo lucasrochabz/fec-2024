@@ -28,7 +28,6 @@ export const Header = () => {
             </Link>
           </ul>
         </nav>
-        <p>ao clicar receber a classe active</p>
       </header>
     </>
   )

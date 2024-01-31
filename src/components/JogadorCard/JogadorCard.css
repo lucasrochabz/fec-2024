@@ -1,0 +1,17 @@
+.img {
+  background-color: #979797;
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  border: 1px solid blue;
+}
+
+.jogador h2 {
+  padding-top: 20px;
+}
+
+img {
+  display: block;
+  max-height: 100%;
+  margin: auto;
+}

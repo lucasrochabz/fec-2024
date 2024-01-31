@@ -17,7 +17,6 @@ export const JogadoresPage = () => {
     <>
       <Header />
       
-
       <section className="jogadores-content">
         <nav>
           <ul>
@@ -37,6 +36,7 @@ export const JogadoresPage = () => {
           <button className="next">Próximo jogador</button>
         </div>
       </section>
+      
       <Footer />
     </>
   )

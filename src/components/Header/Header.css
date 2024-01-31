@@ -1,12 +1,10 @@
 .header-content {
-  /* background-color: #030f22; */
   background-color: #e9eeef;
   display: flex;
   gap: 10px;
 }
 
 .menu {
-  background-color: chocolate;
   align-self: center;
 }
 
@@ -23,8 +21,6 @@
   color: #f7f7f7;
   text-transform: uppercase;
   padding: 10px 20px;
-  /* border: 2px solid #de2527; */
-  /* border-radius: 4px; */
 }
 
 .menu a:hover {
