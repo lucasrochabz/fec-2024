@@ -1,9 +1,9 @@
-import "./JogadoresCard.css"
+import "./JogadorCard.css"
 
-export const JogadoresCard = ({jogador}) => {
+export const JogadorCard = ({jogador}) => {
   return(
     <>
-      <div className='jogadores'>
+      <div className='jogador'>
         <h2 id={`jogador-${jogador.id}`}>{jogador.nome}</h2>
         <p>{jogador.posicao}</p>
         <p>{jogador.numero}</p>

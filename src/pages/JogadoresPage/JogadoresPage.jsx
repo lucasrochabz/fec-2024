@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { Footer } from "../../components/Footer/Footer"
 import { Header } from "../../components/Header/Header"
 import jogadoresData from "/jogadores.json"
+import { JogadorList } from '../../components/JogadorList/JogadorList'
 import "./JogadoresPage.css"
-import { JogadoresCard } from '../../components/JogadoresCard/JogadoresCard'
 
 export const JogadoresPage = () => {
 
@@ -29,14 +29,12 @@ export const JogadoresPage = () => {
           </ul>
         </nav>
 
-        {jogadores.map(jogador => (
-          <JogadoresCard key={jogador.id} jogador={jogador} />
-        ))}
+        <JogadorList jogadores={jogadores} />
 
         <div className="button">
           <button>Jogador Anterior</button>
           <h2>Nome</h2>
-          <button class="next">Próximo jogador</button>
+          <button className="next">Próximo jogador</button>
         </div>
       </section>
       <Footer />
