@@ -3,6 +3,7 @@ import { Footer } from "../../components/Footer/Footer"
 import { Header } from "../../components/Header/Header"
 import jogadoresData from "/jogadores.json"
 import "./JogadoresPage.css"
+import { JogadoresCard } from '../../components/JogadoresCard/JogadoresCard'
 
 export const JogadoresPage = () => {
 
@@ -28,21 +29,9 @@ export const JogadoresPage = () => {
           </ul>
         </nav>
 
-        <div>
-          {jogadores.map(jogador => (
-            <>
-              <div className='jogadores'>
-                <h2 id={`jogador-${jogador.id}`}>{jogador.nome}</h2>
-                <p>{jogador.posicao}</p>
-                <p>{jogador.numero}</p>
-                <div className="img" key={jogador.id}>
-                  <img src={jogador.imgSrc} alt="" />
-                </div>
-                <hr />
-              </div>
-            </>
-          ))}
-        </div>
+        {jogadores.map(jogador => (
+          <JogadoresCard key={jogador.id} jogador={jogador} />
+        ))}
 
         <div className="button">
           <button>Jogador Anterior</button>
