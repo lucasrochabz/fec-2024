@@ -1,8 +1,12 @@
 .home-content {
   background-color: teal;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .home-content h1 {
-  padding: 20px;
+  padding: 10px;
+}
+
+.home-content ul {
+  list-style: none;
 }

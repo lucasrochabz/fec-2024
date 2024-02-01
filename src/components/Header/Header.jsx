@@ -9,25 +9,56 @@ export const Header = () => {
 
   return(
     <>
-      <header className="header-content">
+      <header className="header-container">
+        
+        <nav className="menu">
+          <ul>
+            <li>
+              <Link to='/' className={pathname === '/' ? 'active' : ''}>
+                Home
+              </Link>
+            </li>
+
+            <li>
+              <Link to='/jogadores' className={pathname === '/jogadores' ? 'active' : ''}>
+                Jogadores
+              </Link>
+            </li>
+
+            <li>
+              <Link to='/sobre' className={pathname === '/sobre' ? 'active' : ''}>
+                Sobre
+              </Link>
+            </li>
+          </ul>
+        </nav>
+
         <figure>
           <img src="src/assets/imagens/logo-fortaleza.png" alt="Escudo do Fortaleza" />
         </figure>
-        <nav className="menu">
-          <ul>
-            <Link to='/' className={pathname === '/' ? 'active' : ''}>
-              Home
-            </Link>
 
-            <Link to='/jogadores' className={pathname === '/jogadores' ? 'active' : ''}>
-              Jogadores
-            </Link>
-
-            <Link to='/sobre' className={pathname === '/sobre' ? 'active' : ''}>
-              Sobre
-            </Link>
-          </ul>
-        </nav>
+          <div className="navegacao-externa">
+            <ul>
+              <li>
+                <Link>Loja</Link>
+              </li>
+              <li>
+                <Link>Sócio</Link>
+              </li>
+              <li>
+                <Link>instagram</Link>
+              </li>
+              <li>
+                <Link>youtube</Link>
+              </li>
+              <li>
+                <Link>facebook</Link>
+              </li>
+              <li>
+                <Link>twitter</Link>
+              </li>
+            </ul>
+          </div>
       </header>
     </>
   )

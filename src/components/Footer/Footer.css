@@ -2,6 +2,7 @@
   background-color: #030f22;
   color: #f7f7f7;
   text-align: center;
+  display: grid;
 }
 
 .copy {
@@ -10,4 +11,14 @@
 
 .copy p {
   padding: 10px;
+}
+
+.footer-content ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.footer-content a {
+  color: yellowgreen;
+  text-decoration: none;
 }
